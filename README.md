@@ -13,26 +13,24 @@ currently indexing 885 papers.
 
 ## Demo 
 http://104.248.239.251:5000/sim/10.1101/2020.03.28.013508
+ 
+ 
+## requirements
+
+Flask
+requests
+numpy
+sklearn
 
 ## run
 
-As this is a flask app running it locally is straight forward. First compute the database with `run.py` and then serve:
+As this is a flask app running it locally is straight forward. First compute the database with run.py and then serve:
 
-```
 $ python run.py
 $ flask run
-```
-
 To deploy in production I recommend NGINX and Gunicorn. After configuring NGINX in your environment something like
 
-```
 $ gunicorn3 --workers=3 serve:app --access-logfile -
-```
-
-will do the trick.
-
-
-
 
 This project follows ,@karpathy
 [arxiv-sanity](https://github.com/karpathy/arxiv-sanity-preserver).
