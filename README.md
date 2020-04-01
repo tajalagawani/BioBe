@@ -17,10 +17,10 @@ http://104.248.239.251:5000/sim/10.1101/2020.03.28.013508
  
 ## requirements
 
-Flask
-requests
-numpy
-sklearn
+. Flask
+. requests
+. numpy
+. sklearn
 
 ## run
 
