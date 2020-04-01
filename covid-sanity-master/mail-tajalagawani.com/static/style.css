@@ -1,0 +1,164 @@
+@import 'https://fonts.googleapis.com/css?family=Ubuntu:300, 400, 500, 700';
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    
+    src: url_for('https://fonts.googleapis.com/css?family=Ubuntu:300, 400, 500, 700') ;
+    font-weight: 400;
+    background-color: rgb(243, 243, 243);
+}
+
+#titdiv {
+	height: 220px;
+	background-color: #071f36;
+    color: rgb(219, 219, 219);
+    padding-bottom: 9ch;
+    padding-top: 9ch;
+	text-align: center;
+    border-bottom: 1px solid #160505;
+    border-bottom: #bc2635;
+}
+h1 {
+    font-size: 60px;
+    font-family: 'Ubuntu', sans-serif;
+    padding-bottom:1cm ;
+    font-style: normal;
+    
+    margin: 0;
+    font-weight: 220;
+    position: relative;
+
+}
+#titdiv a {
+    font-weight: 300;
+}
+#titdiv a:visited {
+    color: white;
+    
+}
+#titdiv a:link {
+    color: white;
+}
+
+#wrap {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1cm;
+    position: relative;
+
+}
+
+.rel_paper {
+    margin: 20px;
+    padding: 20px;
+    color: rgb(59, 59, 59);
+    font-size: 14px;
+    border: 1px solid rgb(172, 170, 170);
+    background-color: white;
+    border-radius: 1ch;
+    
+}
+
+.rel_paper a {
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.dllinks {
+    border-radius: 2px;
+   
+    fill-opacity: inherit;
+    padding: 5px;
+    float: right;
+    text-align: justify;
+    padding-left: 2cm;
+    padding-right: 2cm;
+}
+
+.action {
+    font-size: 16px;
+    padding: 5px;
+    margin: 0 5px 0 5px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: underline;
+}
+
+.rel_doi {
+    font-weight: 300;
+}
+
+.rel_title {
+    font-size: 18px;
+    padding-bottom: 1cm;
+
+    
+}
+
+.medrxiv .rel_title a {
+    color: #3f3f3f;
+    text-align: end;
+    padding-top: 2cm;
+    padding-bottom: 1cm;
+    
+
+}
+
+.biorxiv .rel_title a {
+    color: #00063f;
+    padding-bottom: 2cm;
+
+}
+
+.rel_abs {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    background-color: rgb(246, 250, 253);
+    padding: 50px;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding-bottom: 2cm;
+
+}
+
+#info {
+    background-color: #EEF;
+    padding: 20px;
+    margin: 20px;
+    border: 1.5px solid #CCD;
+    color: rgb(109, 104, 104);
+    font-weight: 300;
+    border-radius: 1ch;
+    
+}
+
+#sbox {
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 1ch;
+}
+
+#qfield {
+    border: 5px solid white;
+    width: 500px;
+    border: solid 1px #999;
+    border-radius: 2cm;
+    height: 40px;
+    font-size: 18px;
+    color: "#666666";
+
+    padding-left: 50px;
+
+    background-image:url('/static/search.png');
+    background-repeat:no-repeat;
+    background-position:left center;
+    outline:0;
+}
+
+#footer { 
+    padding-right: 2cm;
+    
+}
