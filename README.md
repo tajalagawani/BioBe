@@ -24,16 +24,25 @@ sklearn
 
 ## run
 
-As this is a flask app running it locally is straight forward. First compute the database with run.py and then serve:
+As this is a flask app running it locally is straight forward. First compute the database with `run.py` and then serve:
 
+```
 $ python run.py
 $ flask run
+```
+
 To deploy in production I recommend NGINX and Gunicorn. After configuring NGINX in your environment something like
 
+```
 $ gunicorn3 --workers=3 serve:app --access-logfile -
+```
+
+
 
 This project follows ,@karpathy
 [arxiv-sanity](https://github.com/karpathy/arxiv-sanity-preserver).
+
+
 ## License
 
 
