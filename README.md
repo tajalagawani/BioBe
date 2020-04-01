@@ -15,14 +15,14 @@ currently indexing 885 papers.
 http://104.248.239.251:5000/sim/10.1101/2020.03.28.013508
  
  
-## requirements
+## Requirements
 
-. Flask
+Flask
 . requests
 . numpy
 . sklearn
 
-## run
+## Run
 
 As this is a flask app running it locally is straight forward. First compute the database with `run.py` and then serve:
 
