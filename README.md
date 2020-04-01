@@ -8,8 +8,6 @@ bioRxiv (pronounced "bio-archive") is a free online archive and distribution ser
 currently indexing 885 papers.
 
 
-This project follows a previous one of mine in spirit,
-[arxiv-sanity](https://github.com/karpathy/arxiv-sanity-preserver).
 
 
 ## Demo 
@@ -33,6 +31,11 @@ $ gunicorn3 --workers=3 serve:app --access-logfile -
 will do the trick.
 
 
+
+
+This project follows ,@karpathy
+[arxiv-sanity](https://github.com/karpathy/arxiv-sanity-preserver).
 ## License
+
 
 MIT
