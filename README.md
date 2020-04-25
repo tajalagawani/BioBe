@@ -12,7 +12,7 @@ currently indexing 885 papers.
 
 
 ## Demo 
-http://104.248.239.251:5000/
+http://biobe.betech.ai/
  
  
 ## Requirements
