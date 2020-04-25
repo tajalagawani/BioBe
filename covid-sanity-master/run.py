@@ -68,14 +68,7 @@ english_stop_words = stop_words.ENGLISH_STOP_WORDS
 punc = "'!\"#$%&\'()*+,./:;<=>?@[\\]^_`{|}~'" # removed hyphen from string.punctuation
 trans_table = {ord(c): None for c in punc}
 
-def makedict(s, forceidf=None, scale=1.0):
-    words = set(s.lower().translate(trans_table).strip().split())
-    words = set(w for w in words if len(w) > 1 and (not w in english_stop_words))
-    idfd = {}
-    for w in words: # todo: if we're using bigrams in vocab then this won't search over them
-        if forceidf is None:
-            if w in vocab:
-                idfval = idf[vocab[w]] * scale # we have idf for this
+
             else:
                 idfval = 1.0 * scale # assume idf 1.0 (low)
         else:
