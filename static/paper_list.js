@@ -1,5 +1,6 @@
 'use strict';
 
+
 class Paper extends React.Component {
   constructor(props) {
     super(props);
@@ -13,7 +14,7 @@ class Paper extends React.Component {
         <div class='dllinks'>
           <div class='rel_doi'><a href={p.rel_link}>{p.rel_doi}</a><span class='rel_date'> - Posted {p.rel_date}</span></div>
           <div class='action'><a href={'/sim/' + p.rel_doi}>similar</a></div>
-          <div class='action'><a href={url}>pdf</a></div>
+          <div class='action'><a href={url}>PDF</a></div>
         </div>
         <div class='rel_title'><a href={p.rel_link}>{p.rel_title}</a></div>
         <div class='rel_authors'>{p.rel_authors}</div>
